@@ -1,0 +1,61 @@
+@charset "utf-8";
+html {background-color: #14279B; margin: 0; padding: 0;}
+body {margin: 0;}
+.wrapper{background-color: #fff; width: 1541px; height: 4280px; margin: 0 auto; font-family: 'gothic','impact', 'AbrilFatface', 'trebuchet', sans-serif; line-height: 35px;}
+.wrapper span {display: block;}
+
+.wrapper .head{border: 3px solid #3564D3; width: 1538px; height: 170px;} 
+.wrapper .head2{border: 3px solid #3564D3; width: 1000px; height: 80px;margin: 0 auto;}
+.wrapper h1{ font-family: impact,sans-serif; font-size: 100px; letter-spacing: 10px; margin: 0; margin-left: 30px; text-align: left; line-height: 154px;} 
+
+.wrapper #wrap{padding-top: 80px;}
+.wrapper .st{display: inline; font-weight: 800;}
+
+.wrapper #wrap .tittle{border: 3px solid #3564D3; border-left: none; border-top: none; width: 365px; height: 82px; text-align: center; margin-bottom: 100px;} 
+.wrapper #wrap .tittle h3{font-size: 30px; margin: 0; line-height: 82px;}
+
+.wrapper #wrap .box {border-top: 3px solid #3564D3; display: flex;}
+/* .box1 */
+.wrapper #wrap .box1 p {font-size: 20px;}
+
+/* box2  */
+.wrapper #wrap .box2 .txtwrap{margin-bottom: 50px;}
+
+/* box3 */
+.wrapper #wrap .box3 .txtwrap{margin-bottom: 70px;}
+.wrapper #wrap .box3 .size{display: flex; flex-direction: column; font-size: 23px; font-weight: 800;line-height: 60px;}
+.wrapper #wrap .box3 .size p { display: inline; border: 2px solid #3564D3;}
+.wrapper #wrap .box3 .size p:hover{background: linear-gradient(to top,#ddd 50%, transparent 50%);}
+
+/* box4 */
+.wrapper #wrap .box4 .roundwrap{display: flex; width: 372px; justify-content: space-between; margin-bottom: 50px; position: relative; left: 120px;}
+.wrapper #wrap .box4 .strong {margin-bottom: 30px;}
+.wrapper #wrap .box4 .roundwrap .round{width: 115px; height: 115px; border: 1px solid #000; border-radius: 50%; text-align: center; line-height: 115px;}
+.wrapper #wrap .box4 .roundwrap .bg1{ border: 1px solid #54BAB9; background-color: #54BAB9;}
+.wrapper #wrap .box4 .roundwrap .bg2{border: 1px solid #8D4D2F; background-color: #8D4D2F;}
+.wrapper #wrap .box4 .roundwrap .bg3{ border: 1px solid rgb(83, 83, 83); background-color: #fff;}
+.wrapper #wrap .box4 .roundwrap p {margin: 0; font-weight: 800;}
+
+.wrapper #wrap .box4 .fontwrap{display: flex;  width: 356px; justify-content: space-between; position: relative; left: 120px; line-height: 40px;}
+.wrapper #wrap .box4 .pos{margin-top: 70px; margin-bottom: 80px;}
+.wrapper #wrap .box4 .fontwrap .fontbox p .G3{font-weight: 300;}
+.wrapper #wrap .box4 .fontwrap .fontbox p .G6{font-weight: 600;}
+.wrapper #wrap .box4 .fontwrap .fontbox p .G8{font-weight: 800;}
+.wrapper #wrap .box4 .fontwrap .fontbox p .ab{font-family: 'AbrilFatface';}
+.wrapper #wrap .box4 .fontwrap .fontbox p .tr{font-family: 'trebuchet';}
+
+/* box5 */
+.wrapper #wrap .box5 .txtwrap{margin-bottom: 50px;}
+
+.wrapper .txtwrap {padding-left: 100px; margin-top: 23px;}
+.wrapper .txtwrap h3 {font-size: 20px; margin: 0; margin-bottom: 15px; color: #EA5C2B; font-weight: 800;}
+.wrapper .txtwrap p {font-size: 16px; margin: 0;}
+.wrapper .txtwrap .txtbox {margin-bottom: 36px;}
+.wrapper .txtwrap .none {color: #000;}
+
+.wrapper .btnwrap {margin-top: 135px; margin-bottom: 135px;}
+.wrapper .btn{border: 5px solid #14279B; width: 630px; height: 108px; margin: 0 auto;}
+.wrapper .btn h2{ margin: 0 auto; font-weight: 800; text-align: center; line-height: 108px; font-size: 30px;}
+.btnwrap .btn a{text-decoration: 0; color: #000; padding: 38px 250px}
+.wrapper .btn:hover {background-color: #14279B;}
+.wrapper .btn:hover a{ color: #fff;}

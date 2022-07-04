@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <title>pageable 연습</title>
+  <link rel="stylesheet" href="../common/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+KR:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="pageable.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="../common/prefixfree.min.js"></script>
+  <!-- jQuery -->
+  <script src="../common/jquery-3.6.0.min.js"></script>
+  <script src="pageable.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <!-- 로고 -->
+    <h1><a href="#"><img src="images/logo.svg" alt="terrabites"></a></h1>
+    <!-- 메뉴 -->
+    <ul id="gnb">
+      <li><a href="#page-1" class="active">페이지 1</a></li>
+      <li><a href="#page-2">페이지 2</a></li>
+      <li><a href="#page-3">페이지 3</a></li>
+      <li><a href="#page-4">페이지 4</a></li>
+    </ul>
+  </header>
+
+  <main id="wrapper">
+    <section data-anchor="page-1" class="bg1">
+      <div class="txt_wrap">
+        <h2>sesame<br>superfood<br>snack</h2>
+        <p>다 무덤 시와 하나에 있습니다. 가을 오면 아침이 어머니 별 있습니다. 그리워 별을 언덕 보고, 그리고 하나에 듯합니다.청춘에서만 끝까지 안고, 수 노래하며 사랑의 오아이스도 우리 사람은 봄바람이다.</p>
+      </div>
+    </section>
+
+    <section data-anchor="page-2" class="bg2">
+      <div class="txt_wrap">
+        <h3>sesame flax seeds</h3>
+        <div class="circle">less sugar</div>
+      </div>
+      <img src="images/flax-left.png" alt="" class="flax1">
+      <img src="images/flax-right.png" alt="" class="flax2">
+      <img src="images/chia-right_0.png" alt="" class="flax3">
+    </section>
+
+    <section data-anchor="page-3" class="bg3">
+      <div class="txt_wrap">
+        <h3>sesame read quioa</h3>
+        <div class="circle">less sugar</div>
+      </div>
+      <img src="images/quinoa-left.png" alt="" class="quioa1">
+      <img src="images/quinoa-right.png" alt="" class="quioa2">
+      <img src="images/organic-right_0.png" alt="" class="quioa3">
+    </section>
+    <section data-anchor="page-4" class="bg4">
+      <div class="txt_wrap">
+        <h3>sesame speculoos</h3>
+        <div class="circle">less sugar</div>
+      </div>
+      <img src="images/speculoos-left.png" alt="" class="spec1">
+      <img src="images/speculoos-right.png" alt="" class="spec2">
+      <img src="images/organic-coconut-left_0.png" alt="" class="spec3">
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* '210 옴니고딕 030'*/
+@font-face { 
+  font-family: 'OGothic030';
+  src: url('fonts/210\ 옴니고딕\ 030.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+} 
+/* 'Cafe24Ohsquare'*/
+@font-face { 
+    font-family: 'Cafe24';
+    src: url('fonts/Cafe24Ohsquare.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }   
+  /* 'impact'*/
+@font-face { 
+    font-family: 'impact';
+    src: url('fonts/impact.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }   
